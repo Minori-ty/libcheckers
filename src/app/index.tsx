@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from "react-native";
-import Guster from 'react-native-gesture-handler';
+import kEY from 'react-native-keyboard-controller';
 
 export default function Index() {
-  console.log(Guster);
+  console.log(kEY);
 
   return (
     <View style={styles.container}>
