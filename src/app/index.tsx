@@ -1,8 +1,11 @@
-import { Linking, StyleSheet, Text, View } from "react-native";
-export * as Linking from 'expo-linking';
+import { isGlassEffectAPIAvailable } from 'expo-glass-effect';
+import * as Linking from 'expo-linking';
+import { StyleSheet, Text, View } from "react-native";
+
 
 export default function Index() {
   console.log(Linking);
+  console.log(isGlassEffectAPIAvailable);
 
   return (
     <View style={styles.container}>
