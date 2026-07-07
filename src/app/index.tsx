@@ -1,8 +1,8 @@
-import { StyleSheet, Text, View } from "react-native";
-import kEY from 'react-native-keyboard-controller';
+import { Linking, StyleSheet, Text, View } from "react-native";
+export * as Linking from 'expo-linking';
 
 export default function Index() {
-  console.log(kEY);
+  console.log(Linking);
 
   return (
     <View style={styles.container}>
